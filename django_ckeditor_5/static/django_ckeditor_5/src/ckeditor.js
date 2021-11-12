@@ -39,6 +39,7 @@ import TodoList from '@ckeditor/ckeditor5-list/src/todolist';
 import CodeBlock from '@ckeditor/ckeditor5-code-block/src/codeblock';
 import ImageTitle from './custom_plugins/imagetitle';
 import Sign from "./custom_plugins/sign/sign";
+import SourceEditing from '@ckeditor/ckeditor5-source-editing/src/sourceediting';
 
 
 export default class ClassicEditor extends ClassicEditorBase {}
@@ -76,5 +77,6 @@ ClassicEditor.builtinPlugins = [
     Highlight,
     TodoList,
     ImageTitle,
-    Sign	
+    Sign,
+    SourceEditing	
 ];
